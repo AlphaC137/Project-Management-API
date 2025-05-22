@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import healthRouter from './modules/health/health.route';
+import healthRouter from '../modules/health/health.route';
 // Import other module routers here as you build them
 
 const router = Router();
