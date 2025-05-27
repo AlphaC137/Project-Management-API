@@ -9,7 +9,12 @@ export interface User {
   first_name: string;
   last_name: string;
   avatar_url?: string;
+  phone?: string;
+  timezone?: string;
+  language?: string;
   is_active: boolean;
+  last_login_at?: Date;
+  email_verified_at?: Date;
   created_at: Date;
   updated_at: Date;
   deleted_at?: Date;
